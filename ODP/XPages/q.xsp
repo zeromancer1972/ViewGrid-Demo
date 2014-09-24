@@ -12,6 +12,7 @@
 						no style or styleClass property available</li>
 					<li>How do I get the selected entries when displaying the
 						checkboxes on each row?</li>
+					<li>Multi categories possible?</li>
 				</ul>
 			</xp:div>
 		</xp:this.facets>

@@ -6,11 +6,11 @@
 		<xe:this.facets>
 			<xe:navigator id="navigator1" xp:key="LeftColumn">
 				<xe:this.treeNodes>
-					<xe:basicLeafNode
-						href="https://github.com/zeromancer1972/ViewGrid-Demo"
+					<xe:basicLeafNode href="https://github.com/zeromancer1972/ViewGrid-Demo"
 						label="GitHub">
 					</xe:basicLeafNode>
-				</xe:this.treeNodes></xe:navigator>
+				</xe:this.treeNodes>
+			</xe:navigator>
 			<xp:callback facetName="facetRight" id="facetRight"
 				xp:key="RightColumn">
 			</xp:callback>
@@ -18,25 +18,16 @@
 		</xe:this.facets>
 		<xe:this.configuration>
 			<xe:oneuiApplication placeBarName="ViewGrid DEMO">
-				<xe:this.footerLinks>
-
-
-
-
-
-					
-				</xe:this.footerLinks>
 				<xe:this.bannerApplicationLinks>
 					<xe:basicLeafNode label="ViewGrid DEMO">
-
 					</xe:basicLeafNode>
 				</xe:this.bannerApplicationLinks>
 				<xe:this.titleBarTabs>
-					<xe:pageTreeNode label="ViewGrid"
-						page="/index.xsp">
+					<xe:pageTreeNode label="ViewGrid" page="/index.xsp">
 					</xe:pageTreeNode>
-					<xe:pageTreeNode label="ViewGrid Categories"
-						page="/index_1.xsp">
+					<xe:pageTreeNode label="ViewGrid Categories" page="/index_1.xsp">
+					</xe:pageTreeNode>
+					<xe:pageTreeNode label="ViewGrid 2 Categories" page="/index_2.xsp">
 					</xe:pageTreeNode>
 					<xe:pageTreeNode label="Questions" page="/q.xsp"></xe:pageTreeNode>
 				</xe:this.titleBarTabs>
@@ -47,4 +38,5 @@
 				</xe:this.bannerUtilityLinks>
 			</xe:oneuiApplication>
 		</xe:this.configuration>
-	</xe:applicationLayout></xp:view>
+	</xe:applicationLayout>
+</xp:view>
