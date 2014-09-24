@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:grid="http://www.openntf.org/xsp/viewgrid"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xc:layout>
+		<xp:this.facets>
+			<xp:div xp:key="facetRight"></xp:div>
+			<xp:div xp:key="facetLeft"></xp:div>
+			<xp:div xp:key="facetMiddle">
+				<grid:ViewGrid view="ByName"
+					database="#{javascript:database.getFilePath()}"
+					autoExpandFirst="false" loadingMessage="Loading Fake Names..."
+					showSelection="true">
+					<grid:this.columns>
+
+						<grid:columns isCategory="false" name="lastname"
+							title="Lastname" align="left" width="20">
+						</grid:columns>
+						<grid:columns isCategory="false" align="left"
+							name="firstname" title="Firstname" width="20">
+						</grid:columns>
+
+					</grid:this.columns>
+				</grid:ViewGrid>
+			</xp:div>
+		</xp:this.facets>
+
+	</xc:layout>
+
+</xp:view>

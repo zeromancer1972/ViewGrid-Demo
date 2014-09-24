@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view name='ByName' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.2'
+ replicaid='C1257D5D005B47EA' showinmenu='false' publicaccess='false' designerversion='8.5.3'
+ unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator' headers='beveled'
+ opencollapsed='false' showresponsehierarchy='true' showmargin='true' shrinkrows='false'
+ extendlastcolumn='false' showhierarchies='false' unreadcolor='black' rowlinecount='1'
+ headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='black' headerbgcolor='white'
+ boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
+ allowcustomizations='false' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
+ uniquekeys='false' formatnoteid='3DBE9AA0CAEAA536852576480046B098'>
+<noteinfo noteid='176' unid='9E35E39C30169144C1257D5D005B98EE' sequence='1'>
+<created><datetime dst='true'>20140924T184029,26+02</datetime></created>
+<modified><datetime dst='true'>20140924T184030,39+02</datetime></modified>
+<revised><datetime dst='true'>20140924T184030,38+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140924T184054,50+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140924T184030,39+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=ulcbs</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=ulcbs</name></wassignedby><code event='selection'><formula
+>SELECT form = "fUserName"</formula></code>
+<actionbar bgcolor='#ece9d8' bordercolor='black'>
+<actionbuttonstyle bgcolor='#ece9d8'/><font color='system'/><border style='solid'
+ width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='_Send Document' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='_Read' showinbar='false' systemcommand='markread'/>
+<action title='_Unread' showinbar='false' systemcommand='markunread'/>
+<action title='_Open in New Window' showinbar='false' systemcommand='openinnewwindow'/>
+<action title='_Print...' showinbar='false' systemcommand='print'/>
+<action title='_Delete' showinbar='false' systemcommand='delete'/>
+<action title='_Document Properties' showinbar='false' systemcommand='properties'/>
+<action title='C_ut' showinbar='false' systemcommand='cut'/>
+<action title='_Copy' showinbar='false' systemcommand='copy'/>
+<action title='Copy as Document _Link' showinbar='false' systemcommand='copyasdoclink'/>
+<action title='Copy as _Table' showinbar='false' systemcommand='copyastable'/>
+<action title='P_aste' showinbar='false' systemcommand='paste'/>
+<action title='_Open' showinbar='false' systemcommand='open'/>
+<action title='Bookmark' showinbar='false' systemcommand='bookmark'/></actionbar>
+<column sort='ascending' resort='both' hidedetailrows='false' itemname='lastname'
+ width='15.6250' resizable='true' separatemultiplevalues='false' sortnoaccent='false'
+ sortnocase='true' showaslinks='false'><columnheader title='Lastname'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column resort='both' hidedetailrows='false' itemname='firstname' width='15.6250'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='false' sortnocase='true'
+ showaslinks='false'><columnheader title='Firstname'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='address' width='15.6250' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Address'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='state' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='State'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='city' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='City'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='zip' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Zip'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='country' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Country'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='email' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='EmailAddress'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='password' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Password'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='phone' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Phone'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='mothersmaiden' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Maiden'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='birthday' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Birthday'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='cctype' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='CCType'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='ccnumber' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='CC Number'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='cvv2' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='CVV2'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='ccexpires' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='CC Expires'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='national' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='NationalID'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='ups' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='UPS'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='occupation' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Occupation'><font size='9pt' style='bold'/></columnheader></column></view>
+

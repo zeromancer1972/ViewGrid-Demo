@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+
+	<xc:layout>
+		<xp:this.facets>
+			<xp:div xp:key="facetLeft"></xp:div>
+			<xp:div xp:key="facetRight"></xp:div>
+			<xp:div xp:key="facetMiddle">
+				<h3>Some questions</h3>
+				<ul>
+					<li>How do I specifiy the height of the control itself? There is
+						no style or styleClass property available</li>
+					<li>How do I get the selected entries when displaying the
+						checkboxes on each row?</li>
+				</ul>
+			</xp:div>
+		</xp:this.facets>
+	</xc:layout>
+</xp:view>
