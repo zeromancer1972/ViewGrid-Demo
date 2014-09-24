@@ -4,18 +4,27 @@
 	<xe:applicationLayout id="applicationLayout1">
 		<xp:callback facetName="facetMiddle" id="facetMiddle"></xp:callback>
 		<xe:this.facets>
+			<xe:navigator id="navigator1" xp:key="LeftColumn">
+				<xe:this.treeNodes>
+					<xe:basicLeafNode
+						href="https://github.com/zeromancer1972/ViewGrid-Demo"
+						label="GitHub">
+					</xe:basicLeafNode>
+				</xe:this.treeNodes></xe:navigator>
 			<xp:callback facetName="facetRight" id="facetRight"
 				xp:key="RightColumn">
 			</xp:callback>
-			<xp:callback facetName="facetLeft" id="facetLeft"
-				xp:key="LeftColumn">
-			</xp:callback>
+
 		</xe:this.facets>
 		<xe:this.configuration>
 			<xe:oneuiApplication placeBarName="ViewGrid DEMO">
 				<xe:this.footerLinks>
 
 
+
+
+
+					
 				</xe:this.footerLinks>
 				<xe:this.bannerApplicationLinks>
 					<xe:basicLeafNode label="ViewGrid DEMO">
@@ -35,6 +44,7 @@
 					<xe:basicLeafNode label="oliverbusse.com"
 						href="http://www.oliverbusse.com">
 					</xe:basicLeafNode>
-				</xe:this.bannerUtilityLinks></xe:oneuiApplication>
+				</xe:this.bannerUtilityLinks>
+			</xe:oneuiApplication>
 		</xe:this.configuration>
 	</xe:applicationLayout></xp:view>
