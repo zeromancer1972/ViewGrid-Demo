@@ -8,10 +8,9 @@
 			<xp:div xp:key="facetMiddle">
 				<grid:ViewGrid view="ByState"
 					database="#{javascript:database.getFilePath()}"
-					autoExpandFirst="false" loadingMessage="Loading Fake Names..."
-					showSelection="true">
+					loadingMessage="Loading Fake Names..." showSelection="true">
 					<grid:this.columns>
-						<grid:columns align="left" name="state"
+						<grid:columns align="left" name="$category"
 							title="State" width="20" isCategory="true">
 						</grid:columns>
 						<grid:columns isCategory="false" name="lastname"

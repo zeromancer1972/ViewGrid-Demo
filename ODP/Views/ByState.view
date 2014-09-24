@@ -8,11 +8,11 @@
  boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
  allowcustomizations='false' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
  uniquekeys='false' formatnoteid='9E35E39C30169144C1257D5D005B98EE'>
-<noteinfo noteid='18e' unid='EF215AB424234D9BC1257D5D005C40B2' sequence='7'>
+<noteinfo noteid='18e' unid='EF215AB424234D9BC1257D5D005C40B2' sequence='8'>
 <created><datetime dst='true'>20140924T184738,74+02</datetime></created>
-<modified><datetime dst='true'>20140924T185503,41+02</datetime></modified>
-<revised><datetime dst='true'>20140924T185503,40+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20140924T185503,41+02</datetime></lastaccessed>
+<modified><datetime dst='true'>20140924T200858,76+02</datetime></modified>
+<revised><datetime dst='true'>20140924T200858,75+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140924T200858,76+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20140924T184738,77+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Oliver Busse/O=ulcbs</name></updatedby>
 <wassignedby><name>CN=Oliver Busse/O=ulcbs</name></wassignedby><code event='selection'><formula
@@ -39,10 +39,10 @@
 <action title='P_aste' showinbar='false' systemcommand='paste'/>
 <action title='_Open' showinbar='false' systemcommand='open'/>
 <action title='Bookmark' showinbar='false' systemcommand='bookmark'/></actionbar>
-<column sort='ascending' hidedetailrows='false' itemname='state' width='10'
+<column sort='ascending' hidedetailrows='false' itemname='$category' width='10'
  resizable='true' separatemultiplevalues='true' sortnoaccent='false' sortnocase='true'
  showaslinks='false' categorized='true' twisties='true'><columnheader title='State'><font
- size='9pt' style='bold'/></columnheader></column>
+ size='9pt' style='bold'/></columnheader><code event='value'><formula>state</formula></code></column>
 <column sort='ascending' resort='both' hidedetailrows='false' itemname='lastname'
  width='15.6250' resizable='true' separatemultiplevalues='false' sortnoaccent='false'
  sortnocase='true' showaslinks='false'><columnheader title='Lastname'><font
