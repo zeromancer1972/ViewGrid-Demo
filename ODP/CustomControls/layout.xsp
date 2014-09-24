@@ -23,11 +23,14 @@
 					</xe:basicLeafNode>
 				</xe:this.bannerApplicationLinks>
 				<xe:this.titleBarTabs>
-					<xe:pageTreeNode label="ViewGrid" page="/index.xsp">
+					<xe:pageTreeNode label="ViewGrid"
+						page="/index.xsp">
 					</xe:pageTreeNode>
-					<xe:pageTreeNode label="ViewGrid Categories" page="/index_1.xsp">
+					<xe:pageTreeNode label="ViewGrid Categories"
+						page="/index_1.xsp">
 					</xe:pageTreeNode>
-					<xe:pageTreeNode label="ViewGrid 2 Categories" page="/index_2.xsp">
+					<xe:pageTreeNode label="ViewGrid 2 Categories"
+						page="/index_2.xsp">
 					</xe:pageTreeNode>
 					<xe:pageTreeNode label="Questions" page="/q.xsp"></xe:pageTreeNode>
 				</xe:this.titleBarTabs>
@@ -36,7 +39,9 @@
 						href="http://www.oliverbusse.com">
 					</xe:basicLeafNode>
 				</xe:this.bannerUtilityLinks>
-			</xe:oneuiApplication>
+				<xe:this.placeBarActions>
+					<xe:pageTreeNode label="New" page="/addname.xsp"></xe:pageTreeNode>
+				</xe:this.placeBarActions></xe:oneuiApplication>
 		</xe:this.configuration>
 	</xe:applicationLayout>
 </xp:view>

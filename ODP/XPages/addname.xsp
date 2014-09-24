@@ -25,7 +25,10 @@ return ctx.isDocEditable(currentDocument.getDocument()) && !currentDocument.isEd
 
 							<xp:actionGroup>
 								<xp:saveDocument var="document1"></xp:saveDocument>
-								<xp:openPage name="/fakenames.xsp"></xp:openPage>
+
+								<xp:executeScript>
+									<xp:this.script><![CDATA[#{javascript:return "close"}]]></xp:this.script>
+								</xp:executeScript>
 							</xp:actionGroup>
 						</xp:this.action>
 					</xp:eventHandler>
@@ -38,9 +41,13 @@ return ctx.isDocEditable(currentDocument.getDocument()) && !currentDocument.isEd
 							<xp:actionGroup>
 
 								<xp:deleteDocument name=""
-									message="Are you sure to delete this document?" var="document1">
+									message="Are you sure to delete this document?"
+									var="document1">
 								</xp:deleteDocument>
-								<xp:openPage name="/fakenames.xsp"></xp:openPage>
+
+								<xp:executeScript>
+									<xp:this.script><![CDATA[#{javascript:return "close"}]]></xp:this.script>
+								</xp:executeScript>
 							</xp:actionGroup>
 						</xp:this.action>
 					</xp:eventHandler>
