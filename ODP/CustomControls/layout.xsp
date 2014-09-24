@@ -35,13 +35,22 @@
 					<xe:pageTreeNode label="Questions" page="/q.xsp"></xe:pageTreeNode>
 				</xe:this.titleBarTabs>
 				<xe:this.bannerUtilityLinks>
+					<xe:loginTreeNode>
+						<xe:this.label><![CDATA[#{javascript:return @UserName().equals("Anonymous") ? "Anmelden" : "Abmelden"}]]></xe:this.label>
+					</xe:loginTreeNode>
 					<xe:basicLeafNode label="oliverbusse.com"
 						href="http://www.oliverbusse.com">
 					</xe:basicLeafNode>
+
 				</xe:this.bannerUtilityLinks>
 				<xe:this.placeBarActions>
-					<xe:pageTreeNode label="New" page="/addname.xsp"></xe:pageTreeNode>
-				</xe:this.placeBarActions></xe:oneuiApplication>
+					<xe:pageTreeNode label="New" page="/addname.xsp"
+						rendered="#{javascript:sysinfo.createDocuments}">
+
+
+					</xe:pageTreeNode>
+				</xe:this.placeBarActions>
+			</xe:oneuiApplication>
 		</xe:this.configuration>
 	</xe:applicationLayout>
 </xp:view>
