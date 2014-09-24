@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<form name='fUserName' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.2'
+ replicaid='C1257D5D005B47EA' publicaccess='false' designerversion='8.5.3'
+ renderpassthrough='true'>
+<noteinfo noteid='1c2' unid='97BBADD033576FAEC1257D5D006FC932' sequence='2'>
+<created><datetime dst='true'>20140924T222100,02+02</datetime></created>
+<modified><datetime dst='true'>20140924T222305,90+02</datetime></modified>
+<revised><datetime dst='true'>20140924T222305,89+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20140924T222305,90+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140924T222101,35+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=ulcbs</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=ulcbs</name></wassignedby>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<pardef id='2' leftmargin='1in' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='2'>Number,Gender,GivenName,MiddleInitial,Surname,StreetAddress,City,State,ZipCode,Country,EmailAddress,Password,TelephoneNumber,MothersMaiden,Birthday,CCType,CCNumber,CVV2,CCExpires,NationalID,UPS,Occupation</par>
+<table widthtype='fixedleft' rowspacing='0.0500in' columnspacing='0.0500in'
+ refwidth='6.0639in'><tablecolumn width='1.5000in'/><tablecolumn width='4.3639in'/>
+<tablerow>
+<tablecell>
+<pardef id='4' keepwithnext='true' keeptogether='true'/>
+<par def='4'>Number</par></tablecell>
+<tablecell>
+<pardef id='5' keepwithnext='true' keeptogether='true'/>
+<par def='5'><field type='number' kind='editable' name='number'><numberformat
+ format='general' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Gender</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='gender'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>FirstName</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='firstname'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>MiddleInit</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='middle'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>LastName</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='lastname'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Address</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='address'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>City</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='city'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>State</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='state'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Zip</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='zip'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Country</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='country'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Email</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='email'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Password</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='password'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Phone</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='phone'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>MothersMaiden</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='mothersmaiden'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Birthday</par></tablecell>
+<tablecell>
+<par def='5'><field type='datetime' kind='editable' name='birthday'><datetimeformat
+ show='date' date='yearmonthday' fourdigityearfor21stcentury='true' zone='never'
+ dateformat='weekdaymonthdayyear' dayformat='twodigitday' monthformat='twodigitmonth'
+ yearformat='fourdigityear' weekdayformat='shortname' dateseparator1=' ' dateseparator2='/'
+ dateseparator3='/' timeseparator=':' preference='usersetting'/></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>CCType</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='cctype'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>CCNumber</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='ccnumber'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>CVV2</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='cvv2'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>CCExpires</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='ccexpires'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>NationalID</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='national'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>UPS</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='ups'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'>Occupation</par></tablecell>
+<tablecell>
+<par def='5'><field type='text' kind='editable' name='occupation'/><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'/></tablecell>
+<tablecell>
+<par def='5'/></tablecell></tablerow></table>
+<par def='1'/></richtext></body>
+<item name='$XPageAlt'><text>addname.xsp</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>fUserName</text></item>
+<item name='number' summary='false'><number>0</number></item></form>
+
