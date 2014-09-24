@@ -11,10 +11,10 @@
 		<content-type>text/css</content-type>
 		<href>tweaks.css</href>
 	</resource>
-	<control>
+	<control override="false">
 		<name>ViewRoot</name>
 		<property>
-			<name>paeTitle</name>
+			<name>pageTitle</name>
 			<value>#{javascript:@DbTitle()}</value>
 		</property>
 	</control>
